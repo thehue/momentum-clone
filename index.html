@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Momentum Clone</title>
+    <link rel="stylesheet" href="index.css"/>
+</head>
+<body>
+    <span class="js-weather weather">
+        <div class="place" style="font-size:20px; text-align: center;"></div>
+        <div class="temp" style="font-size: 50px;"></div>
+    </span>
+    <div class= "center">
+        <div class="js-clock">
+            <div class="js-clockTitle">00:00</div>
+        </div>
+        <form class="js-form form"> <!-- 띄어쓰기 하고 class 이름 두개 만들기 가능; js-form, form클래스 정해져있는것-->
+            <div>What is your name?<br></div>
+            <input type="text" class="nameInput"/>
+        </form>
+        <div class="js-greeting greeting"></div>
+
+        <form class="js-toDoForm">
+            <div>What is your main forcus today?</div>
+            <input type="text" class="toDoInput"/>
+        </form>
+        <ul class="js-toDoList">
+        </ul>
+    </div>
+
+
+    <script src="bg.js"></script>
+    <script src="todo.js"></script>
+    <script src="clock.js"></script>
+    <script src="greeting.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
